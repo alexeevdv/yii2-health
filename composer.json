@@ -1,0 +1,32 @@
+{
+  "name": "alexeevdv/yii2-health",
+  "description": "Yii2 module for application health reporting",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "alexeevdv\\yii\\health\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0"
+  },
+  "require-dev": {
+    "php": "^7.1",
+    "codeception/codeception": "^3.0",
+    "yiisoft/yii2-coding-standards": "^2.0",
+    "yiisoft/yii2-queue": "^2.1"
+  },
+  "suggest": {
+    "yiisoft/yii2-queue": "For queue health reports"
+  }
+}
