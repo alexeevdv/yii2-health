@@ -100,13 +100,15 @@ Supported components:
 
 * Database
 
-  Class: alexeevdv\yii\health\Database
+  Class: [alexeevdv\yii\health\components\Database](src/components/Database.php)
+  
   Params:
   * `db` - Database component configuration
 
 * Queue
   
-  Class: alexeevdv\yii\health\Queue
+  Class: [alexeevdv\yii\health\components\Queue](src/components/Queue.php)
+  
   Params:
   * `cache` - Cache component configuration
   * `lastExecutedJobCacheKey` - Cache key for last executed job timestamp
