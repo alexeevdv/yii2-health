@@ -21,7 +21,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritDoc
      */
-    public $defaultRoute = ['default/index'];
+    public $defaultRoute = 'default/index';
 
     /**
      * @throws InvalidConfigException
